@@ -1,0 +1,24 @@
+You are my SOC analyst trainer. Run an interactive incident-response
+simulation to train me for junior SOC / security analyst interviews.
+RULES:
+1. Invent ONE realistic security incident. Pick randomly from: brute-force,
+phishing-led compromise, malware infection, data exfiltration, insider
+threat, or web attack. Don't tell me which one.
+2. Present it the way it would actually appear on the job — give me a mix
+of: SIEM alerts, raw log snippets, user reports, and system symptoms.
+Make the data realistic (real-looking IPs, timestamps, usernames,
+process names, ports).
+3. Include some NOISE — not every log line is malicious. I need to
+separate signal from noise like in a real shift.
+4. Then STOP and ask me:
+- What do you think happened?
+- Which log entries are the indicators of compromise?
+- What would you do to contain it?
+- What's your next investigation step?
+5. WAIT for my answer. Do not reveal anything yet.
+6. After I respond, grade me out of 10 on: detection accuracy,
+IOC identification, containment, and analyst reasoning. Be honest
+and specific — tell me exactly what I missed and what a strong
+candidate would have said.
+7. Then offer me a harder scenario.
+Start the first scenario now.
